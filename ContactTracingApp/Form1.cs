@@ -69,7 +69,7 @@ namespace ContactTracingApp
 
 
                 StreamWriter dataTxt;
-                dataTxt = File.CreateText(@"C:\Program Files (x86)\Microsoft"
+                dataTxt = File.CreateText(@"C:\Users\ADMIN\Documents\ContactTracingDatas\"
                                             + data[2] + "," + data[0] + " " + data[1] + ".txt");
 
                 dataTxt.WriteLine("First name: " + data[0] + "\n" +
@@ -200,6 +200,11 @@ namespace ContactTracingApp
         }
 
         private void rdoBtnQuesTwoNo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBxLN_TextChanged(object sender, EventArgs e)
         {
 
         }

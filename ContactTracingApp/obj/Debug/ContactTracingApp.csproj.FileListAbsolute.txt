@@ -1,0 +1,11 @@
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\bin\Debug\ContactTracingApp.exe.config
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\bin\Debug\ContactTracingApp.exe
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\bin\Debug\ContactTracingApp.pdb
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.ContactTracer.resources
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.exe
+C:\Users\ADMIN\Desktop\OOP\ContactTracingApp.OOP\ContactTracingApp.OOP\ContactTracingApp\obj\Debug\ContactTracingApp.pdb

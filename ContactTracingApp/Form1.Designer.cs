@@ -80,7 +80,6 @@ namespace ContactTracingApp
             this.txtBxFN.Name = "txtBxFN";
             this.txtBxFN.Size = new System.Drawing.Size(218, 25);
             this.txtBxFN.TabIndex = 1;
-            this.txtBxFN.Text = "**required**";
             this.txtBxFN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxFN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxFN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
@@ -94,7 +93,6 @@ namespace ContactTracingApp
             this.txtBxMN.Name = "txtBxMN";
             this.txtBxMN.Size = new System.Drawing.Size(218, 25);
             this.txtBxMN.TabIndex = 1;
-            this.txtBxMN.Text = "**required**";
             this.txtBxMN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxMN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxMN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
@@ -108,8 +106,8 @@ namespace ContactTracingApp
             this.txtBxLN.Name = "txtBxLN";
             this.txtBxLN.Size = new System.Drawing.Size(218, 25);
             this.txtBxLN.TabIndex = 1;
-            this.txtBxLN.Text = "**required**";
             this.txtBxLN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBxLN.TextChanged += new System.EventHandler(this.txtBxLN_TextChanged);
             this.txtBxLN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxLN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
             this.txtBxLN.Leave += new System.EventHandler(this.ReqField_Leave);
@@ -122,7 +120,6 @@ namespace ContactTracingApp
             this.txtBxAge.Name = "txtBxAge";
             this.txtBxAge.Size = new System.Drawing.Size(109, 25);
             this.txtBxAge.TabIndex = 1;
-            this.txtBxAge.Text = "**required**";
             this.txtBxAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxAge.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxNum_KeyPress);
@@ -221,7 +218,6 @@ namespace ContactTracingApp
             this.txtBxAddress.Name = "txtBxAddress";
             this.txtBxAddress.Size = new System.Drawing.Size(666, 25);
             this.txtBxAddress.TabIndex = 1;
-            this.txtBxAddress.Text = "**required**";
             this.txtBxAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxAddress.TextChanged += new System.EventHandler(this.txtBxAddress_TextChanged);
             this.txtBxAddress.Enter += new System.EventHandler(this.ReqField_Enter);
@@ -353,7 +349,6 @@ namespace ContactTracingApp
             this.txtBxPN.Name = "txtBxPN";
             this.txtBxPN.Size = new System.Drawing.Size(219, 25);
             this.txtBxPN.TabIndex = 1;
-            this.txtBxPN.Text = "**required**";
             this.txtBxPN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxPN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxPN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxNum_KeyPress);
