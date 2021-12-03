@@ -69,7 +69,7 @@ namespace ContactTracingApp
 
 
                 StreamWriter dataTxt;
-                dataTxt = File.CreateText(@"C:\Users\"
+                dataTxt = File.CreateText(@"C:\Program Files (x86)\Microsoft"
                                             + data[2] + "," + data[0] + " " + data[1] + ".txt");
 
                 dataTxt.WriteLine("First name: " + data[0] + "\n" +
