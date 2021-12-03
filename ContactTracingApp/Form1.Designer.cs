@@ -74,13 +74,13 @@ namespace ContactTracingApp
             // 
             // txtBxFN
             // 
-            this.txtBxFN.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxFN.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxFN.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxFN.Location = new System.Drawing.Point(454, 118);
             this.txtBxFN.Name = "txtBxFN";
             this.txtBxFN.Size = new System.Drawing.Size(218, 25);
             this.txtBxFN.TabIndex = 1;
-            this.txtBxFN.Text = "(Required field)";
+            this.txtBxFN.Text = "**required**";
             this.txtBxFN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxFN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxFN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
@@ -88,13 +88,13 @@ namespace ContactTracingApp
             // 
             // txtBxMN
             // 
-            this.txtBxMN.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxMN.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxMN.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxMN.Location = new System.Drawing.Point(230, 118);
             this.txtBxMN.Name = "txtBxMN";
             this.txtBxMN.Size = new System.Drawing.Size(218, 25);
             this.txtBxMN.TabIndex = 1;
-            this.txtBxMN.Text = "(Required field)";
+            this.txtBxMN.Text = "**required**";
             this.txtBxMN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxMN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxMN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
@@ -102,13 +102,13 @@ namespace ContactTracingApp
             // 
             // txtBxLN
             // 
-            this.txtBxLN.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxLN.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxLN.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxLN.Location = new System.Drawing.Point(7, 118);
             this.txtBxLN.Name = "txtBxLN";
             this.txtBxLN.Size = new System.Drawing.Size(218, 25);
             this.txtBxLN.TabIndex = 1;
-            this.txtBxLN.Text = "(Required field)";
+            this.txtBxLN.Text = "**required**";
             this.txtBxLN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxLN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxLN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxChar_KeyPress);
@@ -116,13 +116,13 @@ namespace ContactTracingApp
             // 
             // txtBxAge
             // 
-            this.txtBxAge.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxAge.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxAge.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxAge.Location = new System.Drawing.Point(7, 228);
             this.txtBxAge.Name = "txtBxAge";
             this.txtBxAge.Size = new System.Drawing.Size(109, 25);
             this.txtBxAge.TabIndex = 1;
-            this.txtBxAge.Text = "(Required field)";
+            this.txtBxAge.Text = "**required**";
             this.txtBxAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxAge.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxNum_KeyPress);
@@ -132,10 +132,10 @@ namespace ContactTracingApp
             // 
             this.labelFN.AutoSize = true;
             this.labelFN.BackColor = System.Drawing.Color.Transparent;
-            this.labelFN.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFN.Location = new System.Drawing.Point(451, 95);
+            this.labelFN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFN.Location = new System.Drawing.Point(451, 100);
             this.labelFN.Name = "labelFN";
-            this.labelFN.Size = new System.Drawing.Size(100, 22);
+            this.labelFN.Size = new System.Drawing.Size(103, 20);
             this.labelFN.TabIndex = 0;
             this.labelFN.Text = "First Name:";
             this.labelFN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -144,10 +144,10 @@ namespace ContactTracingApp
             // 
             this.labelMN.AutoSize = true;
             this.labelMN.BackColor = System.Drawing.Color.Transparent;
-            this.labelMN.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMN.Location = new System.Drawing.Point(226, 95);
+            this.labelMN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMN.Location = new System.Drawing.Point(226, 100);
             this.labelMN.Name = "labelMN";
-            this.labelMN.Size = new System.Drawing.Size(118, 22);
+            this.labelMN.Size = new System.Drawing.Size(122, 20);
             this.labelMN.TabIndex = 0;
             this.labelMN.Text = "Middle Name:";
             this.labelMN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -156,10 +156,10 @@ namespace ContactTracingApp
             // 
             this.labelLN.AutoSize = true;
             this.labelLN.BackColor = System.Drawing.Color.Transparent;
-            this.labelLN.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLN.Location = new System.Drawing.Point(3, 95);
+            this.labelLN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLN.Location = new System.Drawing.Point(3, 100);
             this.labelLN.Name = "labelLN";
-            this.labelLN.Size = new System.Drawing.Size(99, 22);
+            this.labelLN.Size = new System.Drawing.Size(101, 20);
             this.labelLN.TabIndex = 0;
             this.labelLN.Text = "Last Name:";
             this.labelLN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -168,10 +168,10 @@ namespace ContactTracingApp
             // 
             this.labelAge.AutoSize = true;
             this.labelAge.BackColor = System.Drawing.Color.Transparent;
-            this.labelAge.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAge.Location = new System.Drawing.Point(3, 201);
+            this.labelAge.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAge.Location = new System.Drawing.Point(3, 206);
             this.labelAge.Name = "labelAge";
-            this.labelAge.Size = new System.Drawing.Size(46, 22);
+            this.labelAge.Size = new System.Drawing.Size(47, 20);
             this.labelAge.TabIndex = 0;
             this.labelAge.Text = "Age:";
             this.labelAge.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -180,10 +180,10 @@ namespace ContactTracingApp
             // 
             this.labelGender.AutoSize = true;
             this.labelGender.BackColor = System.Drawing.Color.Transparent;
-            this.labelGender.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGender.Location = new System.Drawing.Point(127, 201);
+            this.labelGender.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGender.Location = new System.Drawing.Point(127, 206);
             this.labelGender.Name = "labelGender";
-            this.labelGender.Size = new System.Drawing.Size(72, 22);
+            this.labelGender.Size = new System.Drawing.Size(75, 20);
             this.labelGender.TabIndex = 0;
             this.labelGender.Text = "Gender:";
             this.labelGender.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -192,10 +192,10 @@ namespace ContactTracingApp
             // rdoBtnMale
             // 
             this.rdoBtnMale.AutoSize = true;
-            this.rdoBtnMale.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnMale.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnMale.Location = new System.Drawing.Point(131, 229);
             this.rdoBtnMale.Name = "rdoBtnMale";
-            this.rdoBtnMale.Size = new System.Drawing.Size(56, 22);
+            this.rdoBtnMale.Size = new System.Drawing.Size(55, 24);
             this.rdoBtnMale.TabIndex = 2;
             this.rdoBtnMale.TabStop = true;
             this.rdoBtnMale.Text = "Male";
@@ -204,10 +204,10 @@ namespace ContactTracingApp
             // rdoBtnFemale
             // 
             this.rdoBtnFemale.AutoSize = true;
-            this.rdoBtnFemale.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnFemale.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnFemale.Location = new System.Drawing.Point(203, 229);
             this.rdoBtnFemale.Name = "rdoBtnFemale";
-            this.rdoBtnFemale.Size = new System.Drawing.Size(73, 22);
+            this.rdoBtnFemale.Size = new System.Drawing.Size(70, 24);
             this.rdoBtnFemale.TabIndex = 3;
             this.rdoBtnFemale.TabStop = true;
             this.rdoBtnFemale.Text = "Female";
@@ -215,13 +215,13 @@ namespace ContactTracingApp
             // 
             // txtBxAddress
             // 
-            this.txtBxAddress.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxAddress.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxAddress.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxAddress.Location = new System.Drawing.Point(6, 173);
             this.txtBxAddress.Name = "txtBxAddress";
             this.txtBxAddress.Size = new System.Drawing.Size(666, 25);
             this.txtBxAddress.TabIndex = 1;
-            this.txtBxAddress.Text = "(Required field)";
+            this.txtBxAddress.Text = "**required**";
             this.txtBxAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxAddress.TextChanged += new System.EventHandler(this.txtBxAddress_TextChanged);
             this.txtBxAddress.Enter += new System.EventHandler(this.ReqField_Enter);
@@ -231,10 +231,10 @@ namespace ContactTracingApp
             // 
             this.labelAddress.AutoSize = true;
             this.labelAddress.BackColor = System.Drawing.Color.Transparent;
-            this.labelAddress.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAddress.Location = new System.Drawing.Point(3, 146);
+            this.labelAddress.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAddress.Location = new System.Drawing.Point(3, 151);
             this.labelAddress.Name = "labelAddress";
-            this.labelAddress.Size = new System.Drawing.Size(78, 22);
+            this.labelAddress.Size = new System.Drawing.Size(83, 20);
             this.labelAddress.TabIndex = 0;
             this.labelAddress.Text = "Address:";
             this.labelAddress.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -243,10 +243,10 @@ namespace ContactTracingApp
             // 
             this.labelQuesOne.AutoSize = true;
             this.labelQuesOne.BackColor = System.Drawing.Color.Transparent;
-            this.labelQuesOne.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuesOne.Location = new System.Drawing.Point(3, 265);
+            this.labelQuesOne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuesOne.Location = new System.Drawing.Point(3, 270);
             this.labelQuesOne.Name = "labelQuesOne";
-            this.labelQuesOne.Size = new System.Drawing.Size(600, 22);
+            this.labelQuesOne.Size = new System.Drawing.Size(605, 20);
             this.labelQuesOne.TabIndex = 0;
             this.labelQuesOne.Text = "Have you traveled outside the country anytime from last month until now?";
             this.labelQuesOne.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -255,10 +255,10 @@ namespace ContactTracingApp
             // 
             this.labelQuesTwoPt1.AutoSize = true;
             this.labelQuesTwoPt1.BackColor = System.Drawing.Color.Transparent;
-            this.labelQuesTwoPt1.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuesTwoPt1.Location = new System.Drawing.Point(3, 359);
+            this.labelQuesTwoPt1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuesTwoPt1.Location = new System.Drawing.Point(3, 364);
             this.labelQuesTwoPt1.Name = "labelQuesTwoPt1";
-            this.labelQuesTwoPt1.Size = new System.Drawing.Size(642, 22);
+            this.labelQuesTwoPt1.Size = new System.Drawing.Size(650, 20);
             this.labelQuesTwoPt1.TabIndex = 0;
             this.labelQuesTwoPt1.Text = "Have you come into contact with anyone who has traveled outside your country";
             this.labelQuesTwoPt1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -267,10 +267,10 @@ namespace ContactTracingApp
             // 
             this.labelQuesTwoPt2.AutoSize = true;
             this.labelQuesTwoPt2.BackColor = System.Drawing.Color.Transparent;
-            this.labelQuesTwoPt2.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuesTwoPt2.Location = new System.Drawing.Point(3, 379);
+            this.labelQuesTwoPt2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuesTwoPt2.Location = new System.Drawing.Point(3, 384);
             this.labelQuesTwoPt2.Name = "labelQuesTwoPt2";
-            this.labelQuesTwoPt2.Size = new System.Drawing.Size(362, 22);
+            this.labelQuesTwoPt2.Size = new System.Drawing.Size(365, 20);
             this.labelQuesTwoPt2.TabIndex = 0;
             this.labelQuesTwoPt2.Text = "between the period of last month until now?";
             this.labelQuesTwoPt2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -279,10 +279,10 @@ namespace ContactTracingApp
             // 
             this.labelQuesThreePt1.AutoSize = true;
             this.labelQuesThreePt1.BackColor = System.Drawing.Color.Transparent;
-            this.labelQuesThreePt1.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuesThreePt1.Location = new System.Drawing.Point(3, 472);
+            this.labelQuesThreePt1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuesThreePt1.Location = new System.Drawing.Point(3, 477);
             this.labelQuesThreePt1.Name = "labelQuesThreePt1";
-            this.labelQuesThreePt1.Size = new System.Drawing.Size(573, 22);
+            this.labelQuesThreePt1.Size = new System.Drawing.Size(581, 20);
             this.labelQuesThreePt1.TabIndex = 0;
             this.labelQuesThreePt1.Text = "Do you currently have any of the following conditions during this time?";
             this.labelQuesThreePt1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -291,21 +291,21 @@ namespace ContactTracingApp
             // 
             this.labelQuesThreePt2.AutoSize = true;
             this.labelQuesThreePt2.BackColor = System.Drawing.Color.Transparent;
-            this.labelQuesThreePt2.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuesThreePt2.Location = new System.Drawing.Point(3, 492);
+            this.labelQuesThreePt2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuesThreePt2.Location = new System.Drawing.Point(3, 497);
             this.labelQuesThreePt2.Name = "labelQuesThreePt2";
-            this.labelQuesThreePt2.Size = new System.Drawing.Size(185, 22);
+            this.labelQuesThreePt2.Size = new System.Drawing.Size(195, 20);
             this.labelQuesThreePt2.TabIndex = 0;
-            this.labelQuesThreePt2.Text = "(Check all that apply):";
+            this.labelQuesThreePt2.Text = "(Check all applicable):";
             this.labelQuesThreePt2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // chkBxQuesOneFever
             // 
             this.chkBxQuesOneFever.AutoSize = true;
-            this.chkBxQuesOneFever.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.chkBxQuesOneFever.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkBxQuesOneFever.Location = new System.Drawing.Point(38, 525);
             this.chkBxQuesOneFever.Name = "chkBxQuesOneFever";
-            this.chkBxQuesOneFever.Size = new System.Drawing.Size(64, 22);
+            this.chkBxQuesOneFever.Size = new System.Drawing.Size(59, 24);
             this.chkBxQuesOneFever.TabIndex = 4;
             this.chkBxQuesOneFever.Text = "Fever";
             this.chkBxQuesOneFever.UseVisualStyleBackColor = true;
@@ -314,10 +314,10 @@ namespace ContactTracingApp
             // chkBxQuesOneCough
             // 
             this.chkBxQuesOneCough.AutoSize = true;
-            this.chkBxQuesOneCough.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.chkBxQuesOneCough.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkBxQuesOneCough.Location = new System.Drawing.Point(283, 525);
             this.chkBxQuesOneCough.Name = "chkBxQuesOneCough";
-            this.chkBxQuesOneCough.Size = new System.Drawing.Size(68, 22);
+            this.chkBxQuesOneCough.Size = new System.Drawing.Size(65, 24);
             this.chkBxQuesOneCough.TabIndex = 4;
             this.chkBxQuesOneCough.Text = "Cough";
             this.chkBxQuesOneCough.UseVisualStyleBackColor = true;
@@ -325,10 +325,10 @@ namespace ContactTracingApp
             // chkBxQuesOneBD
             // 
             this.chkBxQuesOneBD.AutoSize = true;
-            this.chkBxQuesOneBD.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.chkBxQuesOneBD.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkBxQuesOneBD.Location = new System.Drawing.Point(485, 525);
             this.chkBxQuesOneBD.Name = "chkBxQuesOneBD";
-            this.chkBxQuesOneBD.Size = new System.Drawing.Size(147, 22);
+            this.chkBxQuesOneBD.Size = new System.Drawing.Size(130, 24);
             this.chkBxQuesOneBD.TabIndex = 4;
             this.chkBxQuesOneBD.Text = "Breathing Difficulty";
             this.chkBxQuesOneBD.UseVisualStyleBackColor = true;
@@ -337,23 +337,23 @@ namespace ContactTracingApp
             // 
             this.labelPN.AutoSize = true;
             this.labelPN.BackColor = System.Drawing.Color.Transparent;
-            this.labelPN.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPN.Location = new System.Drawing.Point(451, 201);
+            this.labelPN.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPN.Location = new System.Drawing.Point(451, 206);
             this.labelPN.Name = "labelPN";
-            this.labelPN.Size = new System.Drawing.Size(131, 22);
+            this.labelPN.Size = new System.Drawing.Size(132, 20);
             this.labelPN.TabIndex = 0;
             this.labelPN.Text = "Phone number:";
             this.labelPN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // txtBxPN
             // 
-            this.txtBxPN.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtBxPN.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBxPN.ForeColor = System.Drawing.Color.DarkGray;
             this.txtBxPN.Location = new System.Drawing.Point(455, 228);
             this.txtBxPN.Name = "txtBxPN";
             this.txtBxPN.Size = new System.Drawing.Size(219, 25);
             this.txtBxPN.TabIndex = 1;
-            this.txtBxPN.Text = "(Required field)";
+            this.txtBxPN.Text = "**required**";
             this.txtBxPN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxPN.Enter += new System.EventHandler(this.ReqField_Enter);
             this.txtBxPN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBoxNum_KeyPress);
@@ -377,10 +377,10 @@ namespace ContactTracingApp
             // rdoBtnQuesTwoNS
             // 
             this.rdoBtnQuesTwoNS.AutoSize = true;
-            this.rdoBtnQuesTwoNS.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesTwoNS.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesTwoNS.Location = new System.Drawing.Point(277, 22);
             this.rdoBtnQuesTwoNS.Name = "rdoBtnQuesTwoNS";
-            this.rdoBtnQuesTwoNS.Size = new System.Drawing.Size(82, 22);
+            this.rdoBtnQuesTwoNS.Size = new System.Drawing.Size(73, 24);
             this.rdoBtnQuesTwoNS.TabIndex = 3;
             this.rdoBtnQuesTwoNS.TabStop = true;
             this.rdoBtnQuesTwoNS.Text = "Not sure";
@@ -389,10 +389,10 @@ namespace ContactTracingApp
             // rdoBtnQuesTwoNo
             // 
             this.rdoBtnQuesTwoNo.AutoSize = true;
-            this.rdoBtnQuesTwoNo.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesTwoNo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesTwoNo.Location = new System.Drawing.Point(526, 22);
             this.rdoBtnQuesTwoNo.Name = "rdoBtnQuesTwoNo";
-            this.rdoBtnQuesTwoNo.Size = new System.Drawing.Size(44, 22);
+            this.rdoBtnQuesTwoNo.Size = new System.Drawing.Size(43, 24);
             this.rdoBtnQuesTwoNo.TabIndex = 4;
             this.rdoBtnQuesTwoNo.TabStop = true;
             this.rdoBtnQuesTwoNo.Text = "No";
@@ -402,10 +402,10 @@ namespace ContactTracingApp
             // rdoBtnQuesTwoYes
             // 
             this.rdoBtnQuesTwoYes.AutoSize = true;
-            this.rdoBtnQuesTwoYes.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesTwoYes.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesTwoYes.Location = new System.Drawing.Point(36, 22);
             this.rdoBtnQuesTwoYes.Name = "rdoBtnQuesTwoYes";
-            this.rdoBtnQuesTwoYes.Size = new System.Drawing.Size(51, 22);
+            this.rdoBtnQuesTwoYes.Size = new System.Drawing.Size(47, 24);
             this.rdoBtnQuesTwoYes.TabIndex = 5;
             this.rdoBtnQuesTwoYes.TabStop = true;
             this.rdoBtnQuesTwoYes.Text = "Yes";
@@ -429,10 +429,10 @@ namespace ContactTracingApp
             // rdoBtnQuesOneNS
             // 
             this.rdoBtnQuesOneNS.AutoSize = true;
-            this.rdoBtnQuesOneNS.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesOneNS.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesOneNS.Location = new System.Drawing.Point(273, 22);
             this.rdoBtnQuesOneNS.Name = "rdoBtnQuesOneNS";
-            this.rdoBtnQuesOneNS.Size = new System.Drawing.Size(82, 22);
+            this.rdoBtnQuesOneNS.Size = new System.Drawing.Size(73, 24);
             this.rdoBtnQuesOneNS.TabIndex = 3;
             this.rdoBtnQuesOneNS.TabStop = true;
             this.rdoBtnQuesOneNS.Text = "Not sure";
@@ -442,10 +442,10 @@ namespace ContactTracingApp
             // rdoBtnQuesOneNo
             // 
             this.rdoBtnQuesOneNo.AutoSize = true;
-            this.rdoBtnQuesOneNo.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesOneNo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesOneNo.Location = new System.Drawing.Point(528, 22);
             this.rdoBtnQuesOneNo.Name = "rdoBtnQuesOneNo";
-            this.rdoBtnQuesOneNo.Size = new System.Drawing.Size(44, 22);
+            this.rdoBtnQuesOneNo.Size = new System.Drawing.Size(43, 24);
             this.rdoBtnQuesOneNo.TabIndex = 4;
             this.rdoBtnQuesOneNo.TabStop = true;
             this.rdoBtnQuesOneNo.Text = "No";
@@ -454,10 +454,10 @@ namespace ContactTracingApp
             // rdoBtnQuesOneYes
             // 
             this.rdoBtnQuesOneYes.AutoSize = true;
-            this.rdoBtnQuesOneYes.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnQuesOneYes.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnQuesOneYes.Location = new System.Drawing.Point(32, 22);
             this.rdoBtnQuesOneYes.Name = "rdoBtnQuesOneYes";
-            this.rdoBtnQuesOneYes.Size = new System.Drawing.Size(51, 22);
+            this.rdoBtnQuesOneYes.Size = new System.Drawing.Size(47, 24);
             this.rdoBtnQuesOneYes.TabIndex = 5;
             this.rdoBtnQuesOneYes.TabStop = true;
             this.rdoBtnQuesOneYes.Text = "Yes";
@@ -475,11 +475,11 @@ namespace ContactTracingApp
             // 
             this.labelMainTitle.AutoSize = true;
             this.labelMainTitle.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.labelMainTitle.Font = new System.Drawing.Font("Cooper Black", 35F);
+            this.labelMainTitle.Font = new System.Drawing.Font("Broadway", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMainTitle.ForeColor = System.Drawing.Color.Yellow;
             this.labelMainTitle.Location = new System.Drawing.Point(149, 13);
             this.labelMainTitle.Name = "labelMainTitle";
-            this.labelMainTitle.Size = new System.Drawing.Size(411, 54);
+            this.labelMainTitle.Size = new System.Drawing.Size(424, 53);
             this.labelMainTitle.TabIndex = 0;
             this.labelMainTitle.Text = "Contact Tracing";
             this.labelMainTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -508,7 +508,7 @@ namespace ContactTracingApp
             // 
             this.SubmitButton.BackColor = System.Drawing.Color.DarkCyan;
             this.SubmitButton.FlatAppearance.BorderSize = 0;
-            this.SubmitButton.Font = new System.Drawing.Font("Cooper Black", 15F);
+            this.SubmitButton.Font = new System.Drawing.Font("Broadway", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmitButton.Location = new System.Drawing.Point(240, 3);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Size = new System.Drawing.Size(169, 47);
@@ -520,10 +520,10 @@ namespace ContactTracingApp
             // rdoBtnIPNTS
             // 
             this.rdoBtnIPNTS.AutoSize = true;
-            this.rdoBtnIPNTS.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.rdoBtnIPNTS.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoBtnIPNTS.Location = new System.Drawing.Point(291, 229);
             this.rdoBtnIPNTS.Name = "rdoBtnIPNTS";
-            this.rdoBtnIPNTS.Size = new System.Drawing.Size(148, 22);
+            this.rdoBtnIPNTS.Size = new System.Drawing.Size(119, 24);
             this.rdoBtnIPNTS.TabIndex = 3;
             this.rdoBtnIPNTS.TabStop = true;
             this.rdoBtnIPNTS.Text = "I prefer not to say";

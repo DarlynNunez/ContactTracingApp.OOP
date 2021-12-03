@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61487d20-74ea-48ff-a5ca-f8629f4cf95e": {
+      "ProjectGuid": "61487d20-74ea-48ff-a5ca-f8629f4cf95e",
+      "DisplayName": "ContactTracingApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
